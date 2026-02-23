@@ -1,0 +1,17 @@
+[project]
+name = "secure-local-writing-ai"
+version = "0.1.0"
+description = "A privacy-first local AI writing assistant for professional communication"
+authors = [{ name="Manoj Kumar" }]
+dependencies = ["pyperclip"]
+requires-python = ">=3.9"
+
+[project.scripts]
+secure-write = "secure_write.cli:main"
+
+[tool.setuptools]
+packages = ["secure_write"]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"

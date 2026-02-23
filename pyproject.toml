@@ -3,7 +3,7 @@ name = "secure-local-writing-ai"
 version = "0.1.0"
 description = "A privacy-first local AI writing assistant for professional communication"
 authors = [{ name="Manoj Kumar" }]
-dependencies = ["pyperclip"]
+dependencies = ["pyperclip", "requests"]
 requires-python = ">=3.9"
 
 [project.scripts]
